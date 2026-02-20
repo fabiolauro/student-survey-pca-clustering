@@ -1,6 +1,6 @@
-#Data Analysis on the Young Student Survey
---------
-*Overview*
+# Data Analysis on the Young Student Survey #
+
+Overview
 ----------
 This project presents an exploratory data analysis and dimensionality reduction study on the Young People Survey dataset, using Principal Component Analysis (PCA) to uncover latent patterns in students' preferences, behaviors, and characteristics.
 
@@ -20,7 +20,7 @@ Data visualization
 
 Python-based data analysis workflows
 
-*Dataset*
+Dataset
 -------------
 The dataset contains survey responses from young individuals aged 15–30, covering multiple aspects of their lives including:
 
@@ -48,7 +48,7 @@ Missing values requiring preprocessing
 
 Such datasets are commonly used to identify hidden behavioral patterns and reduce dimensional complexity using statistical techniques like PCA .
 
-*Objectives*
+Objectives
 ------------
 The main goals of this project are:
 
@@ -64,7 +64,7 @@ Interpret principal components in terms of student behavior and preferences
 
 Visualize variance explained and component structure
 
-*Methodology*
+Methodology
 -------------
 The project follows a structured data science workflow:
 
@@ -108,7 +108,7 @@ Behavioral interpretation of components
 
 Dimensionality reduction assessment
 
-*Key Results*
+Key Results
 ---------------
 The analysis demonstrates that:
 
@@ -120,7 +120,7 @@ Latent components reveal underlying behavioral and preference patterns among stu
 
 PCA provides meaningful structure useful for clustering, segmentation, or predictive modeling
 
-*Tech Stack*
+Tech Stack
 ---------------
 Languages and tools used:
 
