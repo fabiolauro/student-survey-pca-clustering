@@ -181,7 +181,7 @@ git clone https://github.com/fabiolauro/student-survey-pca-clustering.git
 
 Install dependencies:
 
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+pip install pandas numpy matplotlib scikit-learn jupyter
 
 Run the notebook:
 
