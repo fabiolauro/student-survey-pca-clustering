@@ -2,6 +2,7 @@
 
 Overview
 ----------
+
 This project presents an exploratory data analysis, dimensionality reduction and clustering study on the Young People Survey dataset, using Principal Component Analysis (PCA) to uncover latent patterns in students' preferences, behaviors, and characteristics, and k-means clustering to identify students/clients' profiles that embody such characteristics.
 
 The main objective is to reduce the dimensionality of a high-dimensional survey dataset and identify interpretable latent factors that explain the variability in student responses.
@@ -24,8 +25,10 @@ Data visualization
 
 Python-based data analysis workflows
 
+
 Dataset
 -------------
+
 The dataset contains survey responses from young individuals aged 15–30, covering multiple aspects of their lives including:
 
 Music preferences
@@ -50,10 +53,12 @@ Numerical and categorical features
 
 Missing values requiring preprocessing
 
-Such datasets are commonly used to identify hidden behavioral patterns and reduce dimensional complexity using statistical techniques like PCA .
+Such datasets are commonly used to identify hidden behavioral patterns and reduce dimensional complexity using statistical techniques like PCA.
+
 
 Objectives
 ------------
+
 The main goals of this project are:
 
 Clean and preprocess a high-dimensional survey dataset
@@ -68,8 +73,10 @@ Interpret principal components in terms of student behavior and preferences
 
 Visualize variance explained and component structure
 
+
 Methodology
 -------------
+
 The project follows a structured data science workflow:
 
 ### 1. Data Loading and Preprocessing
@@ -130,8 +137,10 @@ Visual inspection of cluster separation
 
 Centroid positions in PCA space
 
+
 Key Results
 ---------------
+
 The analysis demonstrates that:
 
 A small number of principal components capture a significant portion of the total variance
@@ -162,12 +171,13 @@ matplotlib
 
 scikit-learn
 
+
 How to Run
 ----
+
 Clone the repository:
 
-git clone https://github.com/fabiolauro/Data-analysis-on-the-Young-Student-Survey.git
-cd Data-analysis-on-the-Young-Student-Survey
+git clone https://github.com/fabiolauro/student-survey-pca-clustering.git
 
 Install dependencies:
 
@@ -177,8 +187,10 @@ Run the notebook:
 
 jupyter notebook HWpca_Lauro_Martellone.ipynb
 
+
 Skills Demonstrated
 -----
+
 This project highlights competencies relevant for Data Science and Business Analytics roles:
 
 Statistical analysis
@@ -202,6 +214,7 @@ Cluster evaluation using silhouette score
 
 Author
 -----
+
 Fabio Lauro
 MSc Mathematical Engineering — Statistics and Optimization
 Politecnico di Torino
