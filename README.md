@@ -142,6 +142,8 @@ Latent components reveal underlying behavioral and preference patterns among stu
 
 PCA provides meaningful structure useful for clustering, segmentation, or predictive modeling
 
+
+
 Tech Stack
 ---------------
 Languages and tools used:
@@ -160,4 +162,49 @@ matplotlib
 
 scikit-learn
 
+How to Run
+----
+Clone the repository:
+
+git clone https://github.com/fabiolauro/Data-analysis-on-the-Young-Student-Survey.git
+cd Data-analysis-on-the-Young-Student-Survey
+
+Install dependencies:
+
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+Run the notebook:
+
+jupyter notebook HWpca_Lauro_Martellone.ipynb
+
+Skills Demonstrated
+-----
+This project highlights competencies relevant for Data Science and Business Analytics roles:
+
+Statistical analysis
+
+Dimensionality reduction
+
+Data preprocessing
+
+Python data stack proficiency
+
+Analytical thinking
+
+Interpretation of complex datasets
+
+Data visualization
+
+K-Means clustering
+
+Cluster evaluation using silhouette score
+
+
+Author
+-----
+Fabio Lauro
+MSc Mathematical Engineering — Statistics and Optimization
+Politecnico di Torino
+
+GitHub: https://github.com/fabiolauro
 
