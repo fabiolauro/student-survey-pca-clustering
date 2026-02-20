@@ -2,7 +2,7 @@
 
 Overview
 ----------
-This project presents an exploratory data analysis and dimensionality reduction study on the Young People Survey dataset, using Principal Component Analysis (PCA) to uncover latent patterns in students' preferences, behaviors, and characteristics.
+This project presents an exploratory data analysis, dimensionality reduction and clustering study on the Young People Survey dataset, using Principal Component Analysis (PCA) to uncover latent patterns in students' preferences, behaviors, and characteristics, and k-means clustering to identify students/clients' profiles that embody such characteristics.
 
 The main objective is to reduce the dimensionality of a high-dimensional survey dataset and identify interpretable latent factors that explain the variability in student responses.
 
@@ -15,6 +15,10 @@ Data preprocessing and cleaning
 Dimensionality reduction using PCA
 
 Statistical interpretation of latent variables
+
+Clustering through K-means
+
+Identification of typical customer profiles
 
 Data visualization
 
@@ -68,7 +72,7 @@ Methodology
 -------------
 The project follows a structured data science workflow:
 
-1. Data Loading and Preprocessing
+### 1. Data Loading and Preprocessing
 
 Loading dataset using pandas
 
@@ -78,7 +82,7 @@ Selecting relevant numerical features
 
 Standardizing variables for PCA
 
-2. Exploratory Data Analysis
+### 2. Exploratory Data Analysis
 
 Summary statistics
 
@@ -88,7 +92,7 @@ Correlation analysis
 
 Data visualization
 
-3. Principal Component Analysis
+### 3. Principal Component Analysis
 
 Standardization of features
 
@@ -100,13 +104,31 @@ Scree plot visualization
 
 Interpretation of component loadings
 
-4. Interpretation
+### 4. Interpretation
 
 Identification of dominant latent factors
 
 Behavioral interpretation of components
 
 Dimensionality reduction assessment
+
+### 5. K-Means Clustering
+
+The K-Means algorithm was applied for multiple values of k:
+
+Tested range: k = 3 to k = 10
+
+Random state fixed for reproducibility
+
+### 6. Cluster Evaluation
+
+Cluster quality was evaluated using the:
+
+Silhouette coefficient
+
+Visual inspection of cluster separation
+
+Centroid positions in PCA space
 
 Key Results
 ---------------
@@ -136,18 +158,6 @@ numpy
 
 matplotlib
 
-seaborn
-
 scikit-learn
 
-Techniques:
 
-Data cleaning
-
-Exploratory Data Analysis
-
-Principal Component Analysis
-
-Statistical interpretation
-
-Data visualization
