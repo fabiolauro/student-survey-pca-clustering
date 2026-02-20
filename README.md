@@ -1,5 +1,5 @@
-**Data Analysis on the Young Student Survey**
-
+*Data Analysis on the Young Student Survey*
+--------
 Overview
 ----------
 This project presents an exploratory data analysis and dimensionality reduction study on the Young People Survey dataset, using Principal Component Analysis (PCA) to uncover latent patterns in students' preferences, behaviors, and characteristics.
